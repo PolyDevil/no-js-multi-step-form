@@ -1,0 +1,1 @@
+import{k as t,h as e,_ as s}from"./q-74adbe50.js";const i=t(e(()=>s(()=>import("./q-961a2752.js"),["build/q-961a2752.js","build/q-74adbe50.js"]),"s_xYL1qOwPyDI")),a={title:"Multi-step form without js",meta:[{name:"description",content:"madness"}]};export{i as default,a as head};
