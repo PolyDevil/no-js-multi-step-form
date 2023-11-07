@@ -450,5 +450,7 @@ So what we have learned:
 The combination of those features allowed us to build multi-step form that works without js.
 
 ## Demo
+
 [Full demo - polydevil.github.io/no-js-multi-step-form](https://polydevil.github.io/no-js-multi-step-form/)
+
 [Code - github.com/PolyDevil/no-js-multi-step-form](https://github.com/PolyDevil/no-js-multi-step-form/blob/main/src/routes/index.tsx)
