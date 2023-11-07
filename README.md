@@ -21,7 +21,7 @@ And each step consists of:
  
 ![image](https://github.com/PolyDevil/no-js-multi-step-form/assets/25101758/58ec592e-dbf3-4401-8733-ae4c2426d732)
 
- `Title` and `fields` should be rendered in the scrollable part, while `actions` should be rendered in `nav`.
+`Title` and `fields` should be rendered in the scrollable part, while `actions` should be rendered in `nav`.
 Seems easy enough.
 
 The markup I came up with is simple:
@@ -185,6 +185,7 @@ We update our markup to:
 ```
 
 So now it looks like this:
+
 ![localhost_5173_step2_](https://github.com/PolyDevil/no-js-multi-step-form/assets/25101758/ff753e65-ab95-42b4-9502-7f62a65c9e3d)
 
 The problem is - since `ol` is a grid element, it renders one child under another, but we want them to align with `x-axis`, not `y`.
@@ -301,6 +302,7 @@ a {
 ```
 
 A little bit better, scroll animation works, links are rendered outside `view`, links are static, but they overlap with each other:
+
 ![localhost_5173_step6_](https://github.com/PolyDevil/no-js-multi-step-form/assets/25101758/895574c5-423c-4f8c-9441-4c4534b318a6)
 
 Lets make a room for 2 button, so since they are grid-elements of `form`, we need to add columns to form:
