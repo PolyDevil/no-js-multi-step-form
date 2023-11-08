@@ -448,6 +448,7 @@ So what we have learned:
  - [`:has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) allows us to conditionall apply styles
 
 The combination of those features allowed us to build multi-step form that works without js.
+You can aslo build pure css carousel using the same technique.
 
 ## Demo
 
